@@ -1123,9 +1123,11 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  width: auto;
 }
 .img-rounded {
   border-radius: 6px;
+  width: auto;
 }
 .img-thumbnail {
   display: inline-block;
@@ -1136,12 +1138,14 @@ img {
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 4px;
+  width: auto;
   -webkit-transition: all .2s ease-in-out;
        -o-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out;
 }
 .img-circle {
   border-radius: 50%;
+  width: auto;
 }
 hr {
   margin-top: 20px;
